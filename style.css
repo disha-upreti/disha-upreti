@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    background-color: #f7f5ed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    background-color: #333333;
+    height: 20px;
+    width: 100%;
+    padding: 10px 5px;
+    font-weight: bold;
+    color: #f7f5ed;
+}
+.col1{
+    float: left;
+    width: 40%;
+}
+.col2{
+    float: left;
+    width: 60%;
+}
+.totals{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    margin: 10px 20px;
+    border-radius: 10px;
+}
+
+.totalsDiv{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h2{
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.d1{
+    margin: 0;
+    color: grey;
+}
+
+.products{
+    background-color: white;
+    height: auto;
+    margin: 10px 20px;
+    border-radius: 10px;
+}
+
+.ph{
+    padding-top: 8px;
+}
+
+.cont1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f7f5ed;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.sicon{
+    background-color: orange;
+    border-radius: 5px;
+    height: 30px;
+    width: 30px;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+
+img{
+    height: 10px;
+    width: 10px;
+}
+
+.ss{
+    border: none;
+    background-color: #f7f5ed;
+}
+
+.ss::placeholder{
+    padding-left: 5px;
+}
+
+table{
+    padding: 10px 20px;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+
+.addProd{
+    background-color: white;
+    height: auto;
+    margin: 10px 20px;
+    border-radius: 10px;
+    padding: 20px 20px 10px 30px;
+}
+
+.ap1{
+    justify-content: space-between;
+    display: flex;
+    align-items: left;
+}
+
+.aps{
+    height: 30px;
+    margin-right: 10px;
+}
+
+.apSub, .spSub{
+    width: 90px;
+    height: 40px;
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+.sellProd{
+    background-color: white;
+    height: auto;
+    margin: 10px 20px;
+    border-radius: 10px;
+    padding: 20px 20px 10px 30px;
+}
+
+
+
+@media (max-width: 480px) { 
+    .col1{
+        width: 100%;
+    }
+    .col2{
+        width: 100%;
+    }
+} 

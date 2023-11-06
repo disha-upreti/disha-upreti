@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <nav>Product</nav>
+    <div class="col">
+        <div class="col1">
+            <div class="totals">
+                <div class="totalsDiv">
+                    <h2 class="tItems">0</h2>
+                    <p class="d1">Total Items</p>
+                </div>
+                <div class="totalsDiv">
+                    <h2 class="isItems">0</h2>
+                    <p class="d1">InStock Items</p>
+                </div>
+                <div class="totalsDiv">
+                    <h2 class="sItems">0</h2>
+                    <p class="d1">Sold Items</p>
+                </div>
+            </div>
+            <div class="products">
+                <div class="cont1">
+                    <h2 class="ph">Products</h2>
+                    <div class="search">
+                        <input type="text" placeholder="Search" class="ss">
+                        <div class="sicon"><img src="img\search-interface-symbol.png"></div>
+                    </div>
+                </div>
+                <table id="prods">
+                    <thead>
+                        <tr>
+                            <td>Product</td>
+                            <td>Price</td>
+                            <td>Quantity</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="col2">
+            <div class="addProd">
+                <h2>Add Product</h2>
+                <div class="ap1" style="margin-bottom: 0px;">
+                    <h5  style="width: 49%; margin-right: 10px;">Product Name</h5>
+                    <h5  style="width: 25%; margin-right: 10px;">Price</h5>
+                    <h5  style="width: 25%; margin-right: 10px;">Quantity</h5>
+                </div>
+                <div class="ap1">
+                    <input type="text" style="width: 50%;" class="aps pName">
+                    <input type="number" style="width: 25%;" class="aps pPrice">
+                    <input type="number" style="width: 25%;" class="aps pQuantity">
+                </div>
+                <div class="ap1" style="padding:10px 10px 10px 0;">
+                    <button type="button" class="apSub">Submit</button>
+                </div>
+            </div>
+            <div class="sellProd">
+                <h2>Sell Product</h2>
+                <div class="ap1" style="margin-bottom: 0px;">
+                    <h5  style="width: 45%; margin-right: 10px;">Product Name</h5>
+                    <h5  style="width: 55%; margin-right: 10px;">Quantity</h5>
+                </div>
+                <div class="ap1">
+                    <input type="text" style="width: 50%;" class="aps pName1">
+                    <input type="number" style="width: 50%;" class="aps pQuantity1">
+                    <button type="button" class="spSub">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
